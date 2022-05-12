@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BootCamp_Challenge_8.Ejercicio_2;
 using BootCamp_Challenge_8.Ejercicio_3;
+using BootCamp_Challenge_8.Ejercicio_1;
 
 namespace BootCamp_Challenge_8
 {
@@ -13,15 +14,18 @@ namespace BootCamp_Challenge_8
         static void Main(string[] args)
         {
 
-            //Ejercicio2();
-            //Ejercicio3();
-
-
-
-
-
-
+            //Ejercicio1(); //// Singleton
+            //Ejercicio2(); //// Factory Metod
+            //Ejercicio3(); //// Prototype,
             Console.ReadKey();
+        }
+        
+        static void Ejercicio1()
+        {
+            Paises.getCountries();
+            Paises.addCountries("Argentina");
+            Paises.addCountries("Brasil");
+            Paises.getCountries();
         }
 
         static void Ejercicio2()

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BootCamp_Challenge_8.Ejercicio_2
+namespace BootCamp_Challenge_8.Ejercicio_1
 {
-    interface ConectionFactory
+    class Provincia
     {
-        void Getconnect();
+        
+
     }
 }

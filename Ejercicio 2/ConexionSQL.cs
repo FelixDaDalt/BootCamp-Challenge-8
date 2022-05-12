@@ -8,7 +8,7 @@ namespace BootCamp_Challenge_8.Ejercicio_2
 {
     class ConexionSQL : ConectionFactory
     {
-        public override void Getconnect()
+        public void Getconnect()
         {
             Console.WriteLine("Conectando a SQL");
         }

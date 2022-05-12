@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio 1\Paises.cs" />
+    <Compile Include="Ejercicio 1\Provincia.cs" />
     <Compile Include="Ejercicio 2\ConecionOracle.cs" />
     <Compile Include="Ejercicio 2\Conectar.cs" />
     <Compile Include="Ejercicio 2\ConectionFactory.cs" />
@@ -52,14 +54,14 @@
     <Compile Include="Ejercicio 3\CuentaCorriente.cs" />
     <Compile Include="Ejercicio 3\SeguroDeVida.cs" />
     <Compile Include="Ejercicio 3\SeguroHogar.cs" />
+    <Compile Include="Ejercicio 4\Informante.cs" />
+    <Compile Include="Ejercicio 4\Receptor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ejercicio 1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

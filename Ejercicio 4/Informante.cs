@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BootCamp_Challenge_8.Ejercicio_2
+namespace BootCamp_Challenge_8.Ejercicio_4
 {
-    interface ConectionFactory
+    class Informante
     {
-        void Getconnect();
+
     }
 }
