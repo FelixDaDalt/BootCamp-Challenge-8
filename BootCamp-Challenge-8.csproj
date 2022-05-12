@@ -54,8 +54,6 @@
     <Compile Include="Ejercicio 3\CuentaCorriente.cs" />
     <Compile Include="Ejercicio 3\SeguroDeVida.cs" />
     <Compile Include="Ejercicio 3\SeguroHogar.cs" />
-    <Compile Include="Ejercicio 4\Informante.cs" />
-    <Compile Include="Ejercicio 4\Receptor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
