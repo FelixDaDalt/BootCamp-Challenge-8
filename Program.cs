@@ -14,7 +14,7 @@ namespace BootCamp_Challenge_8
         static void Main(string[] args)
         {
 
-            //Ejercicio1(); //// Singleton
+            // Ejercicio1(); //// Singleton
             //Ejercicio2(); //// Factory Metod
             //Ejercicio3(); //// Prototype,
             Console.ReadKey();
@@ -22,10 +22,21 @@ namespace BootCamp_Challenge_8
         
         static void Ejercicio1()
         {
-            Paises.getCountries();
-            Paises.addCountries("Argentina");
-            Paises.addCountries("Brasil");
-            Paises.getCountries();
+            //Paises.addCountries("Argentina");
+            //Paises.addCountries("Brasil");
+            //Paises.getCountries();
+            
+            //Provincia.addProvincia(2, "Entre Rios");
+            //Provincia.addProvincia(0, "Buenos Aires");
+            //Provincia.addProvincia(0, "Entre Rios");
+            //Provincia.addProvincia(1, "Brasilia");
+            //Provincia.addProvincia(1, "Rio de Janeiro");
+            //Provincia.addProvincia(0, "Corrientes");
+            //Provincia.addProvincia(1, "Sao Paulo");
+
+            //Provincia.getProvincias(0);
+            //Provincia.getProvincias(1);
+            //Provincia.getProvincias(2);
         }
 
         static void Ejercicio2()
